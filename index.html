@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tit.css">
+
+    <title>التيك توك</title>
+</head>
+<body>
+    
+      
+    
+        <header>
+          <div class="logo">
+            <img src="./صور4/الشعار.jpg" alt="">
+          </div>
+          <nav>
+            <ul class="mean">
+              <li><a href="../index.html"  target="_blank">الصحفحة الرئيسة</a></li>
+              <li><a href="../التخصصات/porgrame2.html" target="_blank">التخصصات</a></li>
+              <li><a href="../movie/movie.html" target="_blank">افلام الحاسوب</a></li>
+              <li><a href="../index.html"  target="_blank">الاقسام</a></li>
+            </ul>
+            <img src="./صور4/1.png" id="toggle" alt="">
+          </nav>
+        </header>
+    
+    
+        <section class="h">
+          <h2 class="title">   التيك توك </h2>
+          <div class="content">
+            <div class="card">
+              <div class="card-imge">
+                <img src="./صور4/IT.jpg" alt="">
+              </div>
+              <div class="card-info">
+                <h4 class="card-p"> <span > قسم تقنية العلومات </span></h4>
+                <strong class="card-title">
+                  <span> <strong></strong> </span>
+                  <a href="./تيك توك قسم تقنية المعلومات/tiktok2.html" class="card-lenk" target="_blank">اظغط هنا</a>
+                </strong>
+              </div>
+            </div>
+            
+            
+            <div class="card">
+              <div class="card-imge">
+                <img src="./صور4/12..jpg" alt="">
+              </div>
+              <div class="card-info">
+                <h4 class="card-p"> <span > اختصارات الويندوز</span></h4>
+                <strong class="card-title">
+                  <span><strong></strong> </span>
+                  <a href="./تيك توك قسم اختصارات الويندز/tiktok3.html" class="card-lenk" target="_blank">اظغط هنا</a>
+                </strong>
+              </div>
+            </div>
+            
+            
+            <div class="card">
+              <div class="card-imge">
+                <img src="./صور4/هندسة.jpg" alt="">
+              </div>
+              <div class="card-info">
+                <h4 class="card-p"> <span> قسم الشبكات </span></h4>
+                <strong class="card-title">
+                  <span> <strong></strong> </span>
+                  <a href="./تيك توك قسم الشبكات/tiktok4.html" target="_blank" class="card-lenk">اظغط هنا</a>
+                </strong>
+              </div>
+            </div>
+    
+            
+            <div class="card">
+              <div class="card-imge">
+                <img src="./صور4/امن الشبكات.jpg" alt="">
+              </div>
+              <div class="card-info">
+                <h4 class="card-p"> <span></span> قسم علوم الحاسوب</h4>
+                <strong class="card-title">
+                  <span> <strong></strong> </span>
+                  <a href="./تيك توك قسم علوم الحاسوب/tiktok5.html" class="card-lenk" target="_blank">اظغط هنا</a>
+                </strong>
+              </div>
+            </div>
+    
+          </div>
+        </section>
+    
+      
+    
+      <script>
+    
+        const mean = document.querySelector('.mean');
+        const toggle = document.getElementById('toggle');
+    
+        toggle.onclick = function () {
+          mean.classList.toggle('active');
+        }
+    
+    
+        // start img
+    
+        function chanenImg(img) {
+          var singleImg = document.querySelector('#singleImg');
+          singleImg.setAttribute('src', img)
+        }
+    
+    // End img
+    
+    
+      </script>
+    
+    
+</body>
+</html>
